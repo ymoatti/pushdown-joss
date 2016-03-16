@@ -146,6 +146,9 @@
                 <!-- Wrong 2.7 -->
                 <!-- Right 2.6 -->
                 <version>2.6</version>
+                <configuration>
+                     <skipTests>true</skipTests>
+                </configuration>
             </plugin>
 
             <plugin>

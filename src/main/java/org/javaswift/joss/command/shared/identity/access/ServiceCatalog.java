@@ -21,6 +21,7 @@ public class ServiceCatalog {
         EndPoint firstEndPoint = null;
         for (EndPoint endPoint : endpoints) {
             if (regionName == null) { // If no region is passed, return the first region
+                endPoint.publicURL = endPoint.internalURL;
                 return endPoint;
             }
             if (firstEndPoint == null) { // If the requested region was not found, return the first region -- show must go on
