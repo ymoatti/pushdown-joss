@@ -17,7 +17,7 @@ import java.util.Arrays;
 public abstract class AbstractRange extends Header {
 
     //    public String RANGE_HEADER_NAME = "Range";
-    public String RANGE_HEADER_NAME = "X-Storlet-Range";
+    public String RANGE_HEADER_NAME = "Range";
     public String RANGE_HEADER_VALUE_PREFIX = "bytes=";
 
     protected long offset;

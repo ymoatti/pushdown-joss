@@ -30,8 +30,8 @@
     </licenses>
 
     <scm>
-        <url>scm:git://github.com/javaswift/joss.git</url>
-        <connection>scm:git:https://github.com/javaswift/joss.git</connection>
+        <url>scm:git://github.com/ymoatti/pushdown-joss.git</url>
+        <connection>scm:git:https://github.com/ymoatti/pushdown-joss.git</connection>
     </scm>
 
     <developers>
